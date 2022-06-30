@@ -1,0 +1,50 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "numarMare.h"
+#include <string>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+numarMare::numarMare(){
+	String StringNumar;
+	//stringInNumar(StringNumar);           //nu mai e nevoie
+}
+
+numarMare::numarMare(String numarString){
+	// stringInNumar(numarString);//face string ul in char[200] ca sa poata fi calculat   //nu mai e nevoie
+	 //
+	 //
+}
+int numarMare::StringInInt(char s){
+	  return s-48;    // cand s devine int, valoarea int ului va fi codul ascii al caracterului -> int ul - 48 = cifra din char in int
+}
+
+char numarMare::IntInString(int cifra){
+      return cifra+48;          //din nou, int devine cod ascii cand e pus intr un char asa ca +48 da cifrele de la 0 la 9
+}
+
+void numarMare::stringInNumar(String Snumar){
+	int n = Snumar.Length();
+	int j =0;
+	 for(int i = n; i > 0; i--){
+		cifreInversate[j]=StringInInt(Snumar[i]);        //string incepe de la 1
+        j++;
+	 }
+}
+
+void numarMare::numarInString(){
+	int n =0;
+	for(int i = 199; i >= 0; i--){
+	    if(cifreInversate[i] > 0){
+	        n = i;                            //cate cifre are
+			break;
+	    }
+	}
+    rezultat = "";
+	for(int i = n;  i >= 0; i--){
+		//Rezultat.push_back(cifreInversate[i]+48);        //se pune rezultatul in ordinea corecta in Rezultat
+		rezultat +=  IntInString(cifreInversate[i]);
+	}
+}

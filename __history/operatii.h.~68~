@@ -1,0 +1,34 @@
+//---------------------------------------------------------------------------
+
+#ifndef operatiiH
+#define operatiiH
+#include "numarMare.h"
+#include "string"
+
+class operatii{
+	public:
+		//variabile
+		numarMare *Rezultat;
+		numarMare *Numar1;
+		numarMare *Numar2;
+
+		String NumarDinEdit1;
+		std::string NumarDinEdit2;
+
+		std::string StringRezultatOperatii;
+        int selectieOperatie=0;
+		//functii pentru program
+		void adunare();
+		void scadere();
+		void inmultire();
+		//void impartire();
+		//void radical();
+		//void invers();
+        void selectareOperatie(int op);
+
+		//functii pt afisarea rezultatelor
+
+};
+//---------------------------------------------------------------------------
+#endif
+

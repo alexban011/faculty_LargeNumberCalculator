@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+
+#ifndef numarMareH
+#define numarMareH
+#include <string>
+#include <cstring>
+#include <vcl.h>
+//---------------------------------------------------------------------------
+class numarMare{
+	   public:
+			const static int numarCifre=100;
+			int cifreInversate[numarCifre];
+			String numarString;
+			String rezultat;
+			numarMare();
+			numarMare(String numarString);
+			int StringInInt(char s);
+            char IntInString(int cifra);
+			void numarInString();
+			void stringInNumar(String Snumar);
+
+};
+
+#endif

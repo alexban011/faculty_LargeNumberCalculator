@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/12/07 15:08:22.000.333,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/12/07 15:08:22.000.243,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/07 15:09:19.000.541,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/07 15:09:20.000.012,=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/12/07 15:14:58.000.388,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit2.h=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2021/12/07 15:14:58.000.388,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit2.dfm=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2021/12/07 15:14:58.000.388,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit2.cpp=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2021/12/07 15:15:02.000.137,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Project1PCH1.h=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/12/07 15:15:03.000.792,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Project1.cbproj=C:\Users\Alex\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/12/07 15:24:31.000.360,=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.cpp</Transaction>
+    <Transaction>2021/12/07 15:24:51.000.812,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.cpp=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\numarMare.cpp</Transaction>
+    <Transaction>2021/12/07 15:24:51.000.812,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.h=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\numarMare.h</Transaction>
+    <Transaction>2021/12/07 15:42:04.000.737,=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.cpp</Transaction>
+    <Transaction>2021/12/07 15:42:20.000.074,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.cpp=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\stringInNumar.cpp</Transaction>
+    <Transaction>2021/12/07 15:42:20.000.074,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.h=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\stringInNumar.h</Transaction>
+    <Transaction>2021/12/07 16:18:07.000.783,=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.cpp</Transaction>
+    <Transaction>2021/12/07 16:18:13.000.663,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.cpp=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\operatii.cpp</Transaction>
+    <Transaction>2021/12/07 16:18:13.000.663,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\Unit1.h=C:\Users\Alex\Desktop\Facultate\Profesori\proiect\operatii.h</Transaction>
+    <Transaction>2021/12/16 22:18:11.000.019,C:\Users\Alex\Desktop\Facultate\Profesori\proiect\stringInNumar.cpp=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="numarMare.cpp"/>
+    <File Path="numarMare.cpp"/>
+    <File Path="numarMare.h"/>
+    <File Path="operatii.cpp"/>
+    <File Path="operatii.cpp"/>
+    <File Path="operatii.h"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="Project1.cpp"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.cpp"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit2.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

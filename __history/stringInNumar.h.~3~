@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+
+#ifndef stringInNumarH
+#define stringInNumarH
+
+#include <string>
+#include <sstream>
+//---------------------------------------------------------------------------
+class stringInNumar{
+	public:
+		int numar[200];
+		string Snumar;
+		stringInNumar();
+		stringInNumar(string Snumar);
+};
+
+#endif

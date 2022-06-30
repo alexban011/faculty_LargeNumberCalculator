@@ -1,0 +1,100 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Calculator cu numere foarte mari'
+  ClientHeight = 257
+  ClientWidth = 637
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Text1: TLabel
+    Left = 8
+    Top = 16
+    Width = 108
+    Height = 13
+    Caption = 'Introduce-ti numerele:'
+  end
+  object textRezultat: TLabel
+    Left = 14
+    Top = 178
+    Width = 44
+    Height = 13
+    Caption = 'Rezultat:'
+  end
+  object numar1: TEdit
+    Left = 8
+    Top = 35
+    Width = 619
+    Height = 21
+    TabOrder = 0
+    Text = '123'
+    OnChange = numar1Change
+  end
+  object numar2: TEdit
+    Left = 8
+    Top = 62
+    Width = 619
+    Height = 21
+    TabOrder = 1
+    Text = '456'
+  end
+  object plus: TButton
+    Left = 206
+    Top = 97
+    Width = 75
+    Height = 25
+    Caption = '+'
+    TabOrder = 2
+    OnClick = plusClick
+  end
+  object minus: TButton
+    Left = 287
+    Top = 97
+    Width = 75
+    Height = 25
+    Caption = '-'
+    TabOrder = 3
+    OnClick = minusClick
+  end
+  object ori: TButton
+    Left = 368
+    Top = 97
+    Width = 75
+    Height = 25
+    Caption = '*'
+    TabOrder = 4
+    OnClick = oriClick
+  end
+  object rezultat: TPanel
+    Left = 64
+    Top = 164
+    Width = 563
+    Height = 41
+    Caption = 'rezultat'
+    TabOrder = 5
+  end
+  object exit: TButton
+    Left = 550
+    Top = 223
+    Width = 75
+    Height = 25
+    Caption = 'Exit'
+    TabOrder = 6
+    OnClick = exitClick
+  end
+  object calculeazaNumarul: TButton
+    Left = 189
+    Top = 128
+    Width = 268
+    Height = 25
+    Caption = 'Calculeaza'
+    TabOrder = 7
+    OnClick = calculeazaNumarulClick
+  end
+end
