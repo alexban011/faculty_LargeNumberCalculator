@@ -9,11 +9,10 @@
 
 numarMare::numarMare(){
 	String StringNumar;
-	//stringInNumar(StringNumar);           //nu mai e nevoie
 }
 
 numarMare::numarMare(String numarString){
-	// stringInNumar(numarString);//face string ul in char[200] ca sa poata fi calculat   //nu mai e nevoie
+	// stringInNumar(numarString);
 	 //
 	 //
 }
