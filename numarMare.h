@@ -8,7 +8,6 @@
 //---------------------------------------------------------------------------
 class numarMare{
 	   public:
-			//const static int numarCifre = 10;      "Abnormal program termination" daca folosesc asta??
 			int cifreInversate[200];
 			String numarString;
 			String rezultat;
